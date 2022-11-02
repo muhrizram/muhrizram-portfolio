@@ -5,41 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muhrizram Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link href="dist/output.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Header start -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
       <div class="container">
         <div class="flex items-center justify-between relative">
           <div class="px-4">
-            <a href="#home" class="font-bold text-lg text-primary block py-6">Muhrizram</a>
+            <a href="#home" class="font-bold text-lg text-primary block py-6"
+              >Muhrizram</a
+            >
           </div>
           <div class="flex items-center px-4">
-            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
-              <span class="hamburger-line transition duration-300 ease-in-out"></span>
-              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+              ></span>
             </button>
-            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
               <ul class="block lg:flex">
                 <li class="group">
-                  <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Home</a
+                  >
                 </li>
                 <li class="group">
-                  <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >About</a
+                  >
                 </li>
                 <li class="group">
-                  <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                  <a
+                    href="#portfolio"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Portfolio</a
+                  >
                 </li>
                 <li class="group">
-                  <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                  <a
+                    href="#clients"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Clients</a
+                  >
                 </li>
                 <li class="group">
-                  <a href="#blog" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                  <a
+                    href="#blog"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Blog</a
+                  >
                 </li>
                 <li class="group">
-                  <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                  <a
+                    href="#contact"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </nav>
@@ -73,7 +121,7 @@
               >Contact me!</a
             >
           </div>
-          <div class="w-full self-end lg:w-1/2 ">
+          <div class="w-full self-end lg:w-1/2">
             <div class="relative mt-10 lg:mt-0 lg:right-0">
               <img
                 src="dist/img/profil.png"
@@ -104,7 +152,11 @@
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
-            <h3 class="font-semibold text-dark text-2xl lg:text-3xl mb-4 lg:pt-10">Be my friend!</h3>
+            <h3
+              class="font-semibold text-dark text-2xl lg:text-3xl mb-4 lg:pt-10"
+            >
+              Be my friend!
+            </h3>
             <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
               temporibus explicabo deserunt maxime optio sint exercitationem
@@ -200,6 +252,95 @@
       </div>
     </section>
     <!-- About Section end -->
+
+    <!-- Portfolio Section start -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Latest Project</h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              quae obcaecati debitis deleniti similique, assumenda sunt ex sit?
+              Quisquam, obcaecati?
+            </p>
+          </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center xl:mx-auto xl:w-10/12">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/portfolio/1.jpg" alt="Landing Page" width="100%">
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Landing Page Muhrizram</h3>
+            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta beatae adipisci odit.</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/portfolio/2.jpg" alt="E-Commerce" width="100%">
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">E-Commerce</h3>
+            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta beatae adipisci odit.</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/portfolio/3.jpg" alt="Technical Documentation" width="100%">
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Technical Documentation</h3>
+            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta beatae adipisci odit.</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="dist/img/portfolio/4.jpg" alt="Tribute Page" width="100%">
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Tribute Page</h3>
+            <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta beatae adipisci odit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section end -->
+
+    <!-- Clients Section start -->
+    <section id="clients" class="pt-36 pb-32 bg-slate-600">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+            <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Who Have Collaborated</h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum nemo laudantium rerum.
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a href="#" class="max-w-[120px] mx-4 py-4 grayscale transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"><img src="dist/img/clients/1.svg" alt="Google" width="100%"></a>
+            <a href="#" class="max-w-[120px] mx-4 py-4 grayscale transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"><img src="dist/img/clients/2.svg" alt="Microsoft" width="100%"></a>
+            <a href="#" class="max-w-[120px] mx-4 py-4 grayscale transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"><img src="dist/img/clients/3.svg" alt="Amazon" width="100%"></a>
+            <a href="#" class="max-w-[120px] mx-4 py-4 grayscale transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"><img src="dist/img/clients/4.svg" alt="Meta" width="100%"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Clients Section end -->
+
+    <!-- Blog Section start -->
+    <section id="blog" class="pt-36 pb-32 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Recent Posts</h2>
+            <p class="font-medium text-md text-secondary md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis perspiciatis molestias labore quibusdam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Section end -->
     <script src="dist/js/script.js"></script>
   </body>
 </html>
